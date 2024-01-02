@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sort</title>
+    <link rel="stylesheet" href="/css/index.css">
+    
+
+</head>
+<body class="container">
+    <main>
+        <section class="sortmain" style="margin-top: 100px;">
+            <h1 class="h1">Array Sorting</h1>
+    <div class="sec"> <span style="font-weight: bold; padding: 4px;">Enter Array:
+        <input type="text" id="arrval" required class="in"></span></div>
+           <div class="btn-div">
+            <button onclick="sortArray('bubble')">Bubble Sort</button>
+            <button onclick="sortArray('merge')">Merge Sort</button>
+            <button onclick="sortArray('selection')">Selection Sort</button>
+            
+            <button onclick="sortArray('insertion')">Insertion Sort</button>
+            <button onclick="sortArray('quick')">Quick Sort</button>
+        </div>
+            <div class="sec"> <span style="font-weight: bold; padding: 4px;">Sorted Array:</span>
+                <div class="output" id="out">
+                </div>
+            </div>
+        </section>
+    
+    </main>
+    <script src="/js/index.js"></script>
+</body>
+</html>
